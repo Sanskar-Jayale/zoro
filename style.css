@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap");
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    position: fixed;
+    font-family: "Poppins",'cursive','Times New Roman', Times, serif,Verdana, Geneva, Tahoma, sans-serif,sans-serif;
+}
+button{
+    color: black;
+    top: 50%;
+    left: 50%;
+}
+label{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+input{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 40vw;
+}
+#sub_btn{
+    background-color: black;
+    color: white;
+    width: 80px;
+    padding: 6px 3px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.machine{
+    background-image: url(https://imgs.search.brave.com/aN_x-HW9LPkfpmot_CPwTFRS0gntxGJU0OH2YbduI1g/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDgzMDQw/MDIuanBn);
+    height: 97vh;
+    width: 100vw;
+    user-select: none;
+}
+.machine *{
+    position: absolute;
+}
+#heart{
+    width: 130px;
+    bottom: 186px;
+    left: 540px;
+}
+#time{
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+.in_middle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.215);
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10000;
+    /* width: 80vw;
+    height: 70vh;
+    overflow-y: scroll; */
+}
+.in_middle *{
+    position: static;
+}
+
+.in_middle::-webkit-scrollbar{
+    display: block;
+}
+.in_middle::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+.in_middle::-webkit-scrollbar-thumb{
+    background: rgb(98, 98, 98);
+}
+.material-symbols-outlined{
+    height: 30px;
+    width: 50px;
+    object-fit: cover;
+    padding: 3px;
+    color: steelblue;
+}
+.cont *{
+     position: static;
+}
+.cont{
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5px;
+}
+.battery{
+    left: 50%;
+    width: 100px;
+    transform: translate(-50%);
+}
+.clock{
+    width: 170px;
+    top: 50px;
+}
+.internet{
+    top: 100px;
+    left: 15px;
+    width: 120px;
+}
+.temp{
+    top: 30px;
+    right: 80px;
+    text-align: right;
+    font-size: smaller;
+}
+.temp *{
+    position: static;
+}
+
+.messages {
+    bottom: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    z-index: 1000;
+  }
+  .usermsg {
+    text-align: right;
+    width: 300px;
+    color: rgb(255, 255, 255);
+  }
+.jmsg{
+    text-align: left;
+    margin-top: 5px;
+    width: 300px;
+    color: greenyellow;
+}
+.messages::-webkit-scrollbar {
+    display: none;
+  }
+
+.commands{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.215);
+    padding: 50px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.commands p {
+    color: greenyellow;
+}
+.commands::-webkit-scrollbar{
+    display: block;
+}
+.commands::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+.commands::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0);
+}
+#start_eren_btn{
+    border: none;
+    outline: none;
+    position: fixed;
+    left: 77px;
+    transform: translateX(0);
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+} 
+
+@media screen and(max-width:844px) {
+ .machine{
+    background-image: url(https://imgs.search.brave.com/aN_x-HW9LPkfpmot_CPwTFRS0gntxGJU0OH2YbduI1g/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDgzMDQw/MDIuanBn);
+
+}
+
+}
